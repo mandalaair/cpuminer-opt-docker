@@ -1,8 +1,9 @@
 {
-	"_comment1" : "Any long-format command line argument ",
-	"_comment2" : "may be used in this JSON configuration file",
+	"__comment_neoscrypt_zergpool" : "-o stratum+tcp://neoscrypt.mine.zergpool.com:4233 -u LNec6RpZxX6Q1EJYkKjUPBTohM7Ux6uMUy -p c=LTC,id=docker",
+	"__comment_yescrypt_zergpool" : "-o stratum+tcp://yescrypt.mine.zergpool.com:6233 -u LNec6RpZxX6Q1EJYkKjUPBTohM7Ux6uMUy -p c=LTC,id=docker",
+	"__comment_yespower_zergpool" : "-o stratum+tcp://yespower.mine.zergpool.com:6533 -u LNec6RpZxX6Q1EJYkKjUPBTohM7Ux6uMUy -p c=LTC,id=docker",
 
-	"api-bind" : "127.0.0.1:4048",
+	"api-bind" : "127.0.0.1:80",
 
 	"url" : "stratum+tcps://stratum-asia.rplant.xyz:17070",
 	"user" : "WbQR3w5EyWkuoFjhjYymrr3pEZDSTTgQkX",
@@ -10,11 +11,6 @@
 
 	"algo" : "yespower",
 	"threads" : 0,
-	"cpu-priority" : 0,
-	"cpu-affinity" : -1,
 
-	"benchmark" : false,
-	"debug" : false,
-	"protocol": false,
-	"quiet" : false
+	"no-color" : true
 }
