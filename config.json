@@ -1,9 +1,8 @@
 {
-	"__comment_neoscrypt_zergpool" : "-o stratum+tcps://stratum-asia.rplant.xyz:17070 -u WbQR3w5EyWkuoFjhjYymrr3pEZDSTTgQkX -p x",
-	"__comment_yescrypt_zergpool" : "-o stratum+tcps://stratum-asia.rplant.xyz:17070 -u WbQR3w5EyWkuoFjhjYymrr3pEZDSTTgQkX -p x",
-	"__comment_yespower_zergpool" : "-o stratum+tcps://stratum-asia.rplant.xyz:17070 -u WbQR3w5EyWkuoFjhjYymrr3pEZDSTTgQkX -p x",
+	"_comment1" : "Any long-format command line argument ",
+	"_comment2" : "may be used in this JSON configuration file",
 
-	"api-bind" : "127.0.0.1:80",
+	"api-bind" : "127.0.0.1:4048",
 
 	"url" : "stratum+tcps://stratum-asia.rplant.xyz:17070",
 	"user" : "WbQR3w5EyWkuoFjhjYymrr3pEZDSTTgQkX",
@@ -11,6 +10,11 @@
 
 	"algo" : "yespower",
 	"threads" : 0,
+	"cpu-priority" : 0,
+	"cpu-affinity" : -1,
 
-	"no-color" : true
+	"benchmark" : false,
+	"debug" : false,
+	"protocol": false,
+	"quiet" : false
 }
